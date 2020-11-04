@@ -1,15 +1,26 @@
 /* CSS files add styling rules to your content */
 
 .header {
-    width: 100%;
-    
-    position: fixed;
-    z-index: 30;
-    top: 0;
-    
-    display: flex;
+  width: 100%;
+  position: fixed;
+  z-index: 30;
+  top: 0;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+}
+
+.header_inner {
+  display: flex;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  width: 100%;
+}
+
+@media (min-height: 30em) and (min-width: 43.125em)
+  .header__inner {
     -webkit-box-align: center;
-    
+    -ms-flex-align: center;
     align-items: center;
 }
 
