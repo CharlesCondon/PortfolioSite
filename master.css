@@ -12,20 +12,33 @@ header {
 body {
   font-family: hobo-std, sans-serif;
   margin: 2em;
+  background-color: #7300e6;
 }
 
 h1 {
-  color: white;
+  color: #ff4da6;
 }
 
 .home {
-  background-color: #7300e6;
+  background-color: #ff4da6;
   width: 100px;
   height: 100px;
   text-align: center;
   position: relative;
+  margin: 0 0 0 5em;
+  padding: 1em;
+  border: 2px solid black;
 }
 
 .logo {
+  padding: auto;
+  margin: auto;
+  width: 70%;
+  height: auto;
+}
+
+.name {
+  display: block;
+  text-align: center;
   
 }
