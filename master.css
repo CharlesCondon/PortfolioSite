@@ -19,10 +19,11 @@ h1 {
   color: #f2aa4cff;
 }
 
-.container {
-  max-width: 1400px;
-  margin: 0 auto;
-  padding: 0 1rem;
+@media (max-width: 1620px)
+  .container-fluid {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 1rem;
 }
 
 .home {
@@ -31,8 +32,8 @@ h1 {
   height: 100px;
   text-align: center;
   position: relative;
-  margin: 0 0 0 0em;
-  padding: 1em;
+  margin: 0 1vw;
+  padding: 1vw;
   border: 2px solid white;
   border-radius: 50%;
 }
