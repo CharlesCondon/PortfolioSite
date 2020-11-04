@@ -19,15 +19,21 @@ h1 {
   color: #f2aa4cff;
 }
 
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
 .home {
   background-color: #f2aa4cff;
   width: 100px;
   height: 100px;
   text-align: center;
   position: relative;
-  margin: 0 0 0 5em;
+  margin: 0 0 0 0em;
   padding: 1em;
-  border: 2px solid black;
+  border: 2px solid white;
   border-radius: 50%;
 }
 
