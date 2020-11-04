@@ -1,12 +1,16 @@
 /* CSS files add styling rules to your content */
 
-header {
-  padding: 0;
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  z-index: 9;
+.header {
+    width: 100%;
+    
+    position: fixed;
+    z-index: 30;
+    top: 0;
+    
+    display: flex;
+    -webkit-box-align: center;
+    
+    align-items: center;
 }
 
 body {
@@ -24,6 +28,11 @@ h1 {
     max-width: 1400px;
     margin: 0 auto;
     padding: 0 1rem;
+}
+
+@media (min-width: 23em)
+  .header {
+    height: 11.0625rem;
 }
 
 .home {
