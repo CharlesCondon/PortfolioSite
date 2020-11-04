@@ -1,0 +1,27 @@
+/* CSS files add styling rules to your content */
+
+header {
+  padding: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 9;
+}
+
+body {
+  font-family: hobo-std, sans-serif;
+  margin: 2em;
+}
+
+h1 {
+  color: white;
+}
+
+.home {
+  background-color: #ff4da6;
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  position: relative;
+}
