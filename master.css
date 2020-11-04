@@ -12,15 +12,15 @@ header {
 body {
   font-family: hobo-std, sans-serif;
   margin: 2em;
-  background-color: #7300e6;
+  background-color: #101820FF;
 }
 
 h1 {
-  color: #ff4da6;
+  color: #f2aa4cff;
 }
 
 .home {
-  background-color: #ff4da6;
+  background-color: #f2aa4cff;
   width: 100px;
   height: 100px;
   text-align: center;
@@ -28,6 +28,7 @@ h1 {
   margin: 0 0 0 5em;
   padding: 1em;
   border: 2px solid black;
+  border-radius: 50%;
 }
 
 .logo {
@@ -40,5 +41,5 @@ h1 {
 .name {
   display: block;
   text-align: center;
-  
+  position: relative;
 }
