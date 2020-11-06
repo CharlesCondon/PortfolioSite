@@ -32,6 +32,7 @@ ul {
     margin-inline-start: 0px;
     margin-inline-end: 0px;
     padding-inline-start: 20vw;
+    text-align: right;
 }
 
 li {
@@ -81,20 +82,7 @@ li {
 }
 
 .row {
-  box-sizing: border-box;
-  margin: 0 auto;
-  width: 100%;
-  display: -ms-flexbox;
-  display: -webkit-box;
   display: flex;
-  -webkit-box-flex: 0;
-  -ms-flex: 0 1 auto;
-  flex: 0 1 auto;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: row;
   flex-direction: row;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
-  align-items: center;
+
 }
