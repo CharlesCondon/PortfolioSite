@@ -5,7 +5,7 @@ header {
 }
 
 .header {
-  padding: 0;
+  padding: 1em 0;
   position: absolute;
   top: 0;
   left: 0;
@@ -24,21 +24,28 @@ h1 {
   font-size: 10vw;
 }
 
-ul {
-    display: block;
-    list-style-type: disc;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    padding-inline-start: 20vw;
-    text-align: right;
-}
-
 li {
   text-align: right;
   color: #f2aa4cff;
   display: inline-block;
+}
+
+a:link {
+  color: orange;
+  text-decoration: none;
+}
+
+a:visited {
+  color: rgb(201, 126, 41);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:active {
+  text-decoration: underline;
 }
 
 .menuItem {
@@ -86,5 +93,7 @@ li {
 }
 
 .navigation {
-  
+  position: absolute;
+  margin: 0 5em;
+  right: 0;
 }
