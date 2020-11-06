@@ -33,6 +33,7 @@ ul {
     margin-inline-end: 0px;
     padding-inline-start: 20vw;
     text-align: right;
+  
 }
 
 li {
@@ -46,7 +47,10 @@ li {
 }
 
 .container {
+  display: flex;
+  flex-direction: row;
   padding: 0 5vw;
+  align-items: center;
 }
 
 @media (max-width: 1620px) 
@@ -81,8 +85,3 @@ li {
   position: relative;
 }
 
-.row {
-  display: flex;
-  flex-direction: row;
-
-}
