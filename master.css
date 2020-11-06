@@ -33,7 +33,6 @@ ul {
     margin-inline-end: 0px;
     padding-inline-start: 20vw;
     text-align: right;
-  
 }
 
 li {
@@ -45,6 +44,7 @@ li {
 .menuItem {
   padding: 0 40px 0 0;
 }
+
 
 .container {
   display: flex;
@@ -85,3 +85,6 @@ li {
   position: relative;
 }
 
+.navigation {
+  
+}
