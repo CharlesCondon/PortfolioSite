@@ -1,7 +1,8 @@
 /* CSS files add styling rules to your content */
 
 header {
-  display: block;
+  display: flex;
+  flex-direction: row;
 }
 
 .header {
@@ -22,6 +23,22 @@ body {
 h1 {
   color: #f2aa4cff;
   font-size: 10vw;
+}
+
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+li {
+  text-align: right;
+  color: #f2aa4cff;
+  display: inline-block;
 }
 
 .container {
