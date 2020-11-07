@@ -28,8 +28,10 @@ li {
   text-align: right;
   color: #f2aa4cff;
   display: inline-block;
+  text-transform: uppercase;
 }
 
+}
 a:link {
   color: orange;
   text-decoration: none;
@@ -41,11 +43,11 @@ a:visited {
 }
 
 a:hover {
-  text-decoration: underline;
+  text-decoration: line-through;
 }
 
 a:active {
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 .menuItem {
@@ -75,7 +77,6 @@ a:active {
   position: relative;
   margin: 0;
   padding: 1em;
-  border: 2px solid white;
   border-radius: 50%;
 }
 
