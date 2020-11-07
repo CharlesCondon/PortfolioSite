@@ -16,7 +16,8 @@ header {
 body {
   font-family: hobo-std, sans-serif;
   margin: 2em;
-  background-color: #101820FF;
+  background-color: #101820FF
+
 }
 
 h1 {
@@ -91,6 +92,7 @@ a:active {
 .name {
   display: block;
   position: relative;
+  width: 36%;
   left: 8vw;
   top: 5vw;
   margin-bottom: 9vw;
@@ -111,4 +113,11 @@ a:active {
   border-radius: 0 50px 50px 0;
   left: 0;
   padding: 0 2vw 0 11vw;
+}
+
+#hand {
+  position: absolute;
+  right: 6vw;
+  bottom: 0;
+  width: 50%;
 }
