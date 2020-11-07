@@ -91,7 +91,7 @@ a:active {
   display: block;
   position: relative;
   left: 8vw;
-  top: 3vw;
+  top: 5vw;
 }
 
 .navigation {
@@ -100,9 +100,11 @@ a:active {
   right: 0;
 }
 
-@flair {
+#flair {
+  display:block;
   background-color: #f2aa4cff;
   position: relative;
   width: 20%;
-  height: 3vw;
+  text-align: center;
 }
+
