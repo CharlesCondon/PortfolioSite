@@ -33,12 +33,12 @@ li {
 
 }
 a:link {
-  color: orange;
+  color: #f2aa4cff;
   text-decoration: none;
 }
 
 a:visited {
-  color: rgb(201, 126, 41);
+  color: #f2aa4cff;
   text-decoration: none;
 }
 
@@ -58,7 +58,7 @@ a:active {
 .container {
   display: flex;
   flex-direction: row;
-  padding: 0 5vw;
+  padding: 0 10vw;
   align-items: center;
 }
 
@@ -89,12 +89,20 @@ a:active {
 
 .name {
   display: block;
-  text-align: center;
   position: relative;
+  left: 8vw;
+  top: 3vw;
 }
 
 .navigation {
   position: absolute;
-  margin: 0 5em;
+  margin: 0 10vw;
   right: 0;
+}
+
+@flair {
+  background-color: #f2aa4cff;
+  position: relative;
+  width: 20%;
+  height: 3vw;
 }
