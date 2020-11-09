@@ -16,8 +16,8 @@ header {
 body {
   font-family: hobo-std, sans-serif;
   margin: 2em;
-  background-image: url("https://cdn.glitch.com/404bb06c-4b66-4860-905d-4ad52d1e7e07%2FUntitled_Artwork%20(3).png?v=1604952436321");
-  
+  background-image: url("https://cdn.glitch.com/404bb06c-4b66-4860-905d-4ad52d1e7e07%2FUntitled_Artwork%20(4).png?v=1604952635223");
+  background-color: #101820FF;
 }
 
 h1 {
@@ -151,6 +151,7 @@ a:active {
   margin: 1.5vw 0vw 0vw 30vw;
   padding: 1.5vw;
 }
+
 .submission {
   text-align: center;
   float: left;
