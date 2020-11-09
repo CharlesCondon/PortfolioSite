@@ -23,10 +23,12 @@ body {
 h1 {
   color: #f2aa4cff;
   font-size: 8vw;
+    -webkit-text-stroke: 1px black;
 }
 
 h2 {
   color: #101820FF;
+  font-size: 1.25vw;
 }
 
 li {
