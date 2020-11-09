@@ -21,7 +21,7 @@ body {
 
 h1 {
   color: #f2aa4cff;
-  font-size: 10vw;
+  font-size: 8vw;
 }
 
 h2 {
@@ -84,17 +84,18 @@ a:active {
 .logo {
   padding: auto;
   margin: auto;
-  width: 70%;
+  width: 100%;
   height: auto;
 }
 
 .name {
   display: block;
   position: relative;
-  width: 36%;
+  width: 34%;
   left: 8vw;
-  top: 5vw;
+  top: 8vw;
   margin-bottom: 9vw;
+  text-transform: uppercase;
 }
 
 .navigation {
@@ -111,6 +112,7 @@ a:active {
   text-align: center;
   border-radius: 0 50px 50px 0;
   left: 0;
+  bottom: 9vw;
   padding: 0 2vw 0 11vw;
 }
 
