@@ -5,14 +5,60 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Art by Charles</title>
+    <!-- import the webpage's javascript file -->
+    <script src="/script.js" defer></script>
     
     <!-- import the webpage's stylesheet -->
     <link rel="stylesheet" href="/master.css">
     <link rel="stylesheet" href="https://use.typekit.net/seb0zhz.css" />
+    <link
+      rel="shortcut icon"
+      type="image/x-icon"
+      href="https://cdn.glitch.com/160a84ab-111f-4f77-b5c3-173451485f15%2FLogo%20Practice.png?v=1603828573136"
+    />
+    <!-- Media query for narrow browser width -->
+    <link rel="stylesheet" media="only screen and (max-width: 480px)" href="mobile.css">
+
+    <!-- Media query for medium browser width -->
+    <link rel="stylesheet" media="only screen and (min-width: 481px) and (max-width: 960px)" href="tablet.css">
+
+    <!-- Media query for full browser width -->
+    <link rel="stylesheet" media="only screen and (min-width: 961px)" href="desktop.css">
     
-    <!-- import the webpage's javascript file -->
-    <script src="/script.js" defer></script>
+    <title>Charles Condon | Art</title>
+    
+    <style>
+      .gif {
+        display: block;
+        margin: 0vw auto 0vw auto;
+        width: 1200px; /* width of container */
+        height: 600px; /* height of container */
+        object-fit: cover;
+        position: center;
+      }
+      
+      #gif2 {
+        display: block;
+        object-fit: cover;
+        position: center;
+        width: 65%;
+        margin: 7vw auto 7vw auto;
+      }
+      
+      .square {
+        width: 35%;
+        border: 2px solid black;
+        margin: 3vw 6.75vw 3vw 6.75vw;
+      }
+      
+      .rectangle {
+        width: 40%;
+        border: 2px solid black;
+        margin: 3vw 4.5vw 3vw 4.5vw;
+      }
+      
+    </style>    
+
   </head>  
   
   <body>
@@ -37,5 +83,51 @@
       </div>
       
     </header>
+    
+    <main>
+      <div style="margin: 12em 0 0 0">
+
+        <img class="square"
+          src="https://cdn.glitch.com/160a84ab-111f-4f77-b5c3-173451485f15%2FProfile.png?v=1599670210492"
+        />
+
+        <img class="square"
+          src="https://cdn.glitch.com/160a84ab-111f-4f77-b5c3-173451485f15%2FWoman%20walking.jpg?v=1599670219332"
+        />
+
+        <img
+          width="200%"
+          class="gif"
+          src="https://cdn.glitch.com/160a84ab-111f-4f77-b5c3-173451485f15%2FUntitled_Artwork%20(35).gif?v=1600734001708"
+          alt="Close up drawing of cowboy wearing sunglasses and glare passing over them"
+        />
+
+        <img
+          class="rectangle"
+          src="https://cdn.glitch.com/160a84ab-111f-4f77-b5c3-173451485f15%2FCar.jpg?v=1603829730081"
+        />
+
+        <img
+          class="rectangle"
+          src="https://cdn.glitch.com/160a84ab-111f-4f77-b5c3-173451485f15%2FWoman.jpg?v=1599670202544"
+        />
+
+        <img 
+          id="gif2"
+          src="https://cdn.glitch.com/160a84ab-111f-4f77-b5c3-173451485f15%2FUntitled_Artwork%20(7).gif?v=1603830228955"
+        />
+
+        <img
+          class="square"
+          src="https://cdn.glitch.com/160a84ab-111f-4f77-b5c3-173451485f15%2FUntitled_Artwork%20(6).JPG?v=1603830892270"
+        />
+
+        <img
+          class="square"
+          src="https://cdn.glitch.com/160a84ab-111f-4f77-b5c3-173451485f15%2F580FFFAB-F5CD-4295-9BAC-4336BC104AEA%20(1).JPG?v=1603831030425"
+        />
+
+      </div>    
+    </main>
   </body>
 </html>
