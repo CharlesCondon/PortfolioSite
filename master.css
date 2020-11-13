@@ -125,48 +125,4 @@ a:active {
 }
 
 //////////////////////////////////////////////
-.socials {
-  border: 5px double white;
-  background: rgb(255, 255, 255, 0.3);
-  border-radius: 50px 15px;
-  margin: 0vw 3.5vw 3.5vw 3.5vw;
-  padding: 2vw 4vw 7vw 5vw;
-  float: left;
-}
 
-#contact {
-  float: left;
-  border-radius: 15px 50px;
-  background-color: rgb(255, 255, 255, 0.3);
-}
-
-.mediaLinks {
-  text-align: left;
-  color: black;
-  padding: 0;
-  margin: 0vw;
-}
-
-#navContact {
-  margin: 1.5vw 0vw 0vw 30vw;
-  padding: 1.5vw;
-}
-
-.submission {
-  text-align: center;
-  float: left;
-  border: 5px double white;
-  border-radius: 50px;
-  background: rgb(255, 255, 255, 0.3);
-  padding: 11vw 9vw 10vw 9vw;
-  margin: 5vw 9vw 7vw 9vw;
-  width: 25%;
-}
-
-.heading {
-  text-align: center;
-  font-size: 5vw;
-  border: 5px double white;
-  padding: 0.7vw 22vw 0.7vw 21vw;
-  margin: 0vw;
-}
