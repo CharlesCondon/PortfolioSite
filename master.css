@@ -54,6 +54,10 @@ a:active {
   text-decoration: none;
 }
 
+p {
+  color: #f2aa4cff;
+}
+
 .menuItem {
   padding: 0 40px 0 0;
 }

@@ -56,8 +56,14 @@ h3 {
 .aboutContainer {
   border: 2px solid white;
   margin: 14em 5em 0 5em;
+  display: flex;
+  flex-direction: row;
 }
 
 #self {
-  width: 25%;
+  width: 40%;
+}
+
+#aboutCol {
+  flex-direction: column;
 }
