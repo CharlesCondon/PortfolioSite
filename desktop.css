@@ -1,0 +1,18 @@
+h3 {
+  font-size: 2vw;
+  color: #f2aa4cff;
+}
+
+.socials {
+  border: 5px double white;
+  background: rgb(255, 255, 255, 0.3);
+  border-radius: 50px 15px;
+  margin: 0vw 3.5vw 3.5vw 3.5vw;
+  padding: 2vw 4vw 7vw 5vw;
+  float: left;
+}
+
+.contactContainer {
+  border: 2px solid white;
+  margin: 14em 0 0 0;
+}
