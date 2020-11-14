@@ -44,10 +44,11 @@ h3 {
 }
 
 #self {
+  display: block;
   width: 45%;
 }
 
 #aboutCol {
   flex-direction: column;
-  margin: 6em 12em;
+  margin: 3em 11em;
 }
