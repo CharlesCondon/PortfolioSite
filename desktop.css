@@ -9,7 +9,7 @@ h3 {
   background: rgb(255, 255, 255, 0.1);
   border-radius: 50px 15px;
   margin: 0vw 3.5vw 3.5vw 3.5vw;
-  padding: 2vw 4vw 5vw 5vw;
+  padding: 1vw 4vw 4vw 5vw;
   float: left;
 }
 
@@ -37,18 +37,23 @@ h3 {
 
 /* About Page CSS */
 .aboutContainer {
-  border: 2px solid white;
   margin: 17em 0 0 0;
   display: flex;
   flex-direction: row;
 }
 
 #self {
+  display: block;
   margin: 0em 0 0em 11em;
-  border: 2px solid white;
+  border: 5px double white;
+  border-radius: 50px 15px;
 }
 
 #aboutCol {
   flex-direction: column;
   margin: 0 11vw;
+}
+
+#nameSpace {
+  margin: 1vw 0;
 }
