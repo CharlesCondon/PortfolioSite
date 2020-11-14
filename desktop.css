@@ -44,8 +44,8 @@ h3 {
 }
 
 #self {
-  display: block;
   width: 45%;
+  object-fit: cover;
 }
 
 #aboutCol {
