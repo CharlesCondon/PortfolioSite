@@ -22,8 +22,8 @@ h3 {
 
 .home {
   background-color: #f2aa4cff;
-  width: 100px;
-  height: 100px;
+  width: 5vw;
+  height: 5vw;
   text-align: center;
   position: relative;
   margin: 0;
@@ -39,6 +39,11 @@ h3 {
 
 .menuItem {
   padding: 0 40px 0 0;
+  font-size: .85vw;
+}
+
+#menuItem2 {
+  font-size: .85vw;
 }
 
 .logo {
@@ -54,14 +59,14 @@ h3 {
   position: relative;
   width: 34%;
   left: 8vw;
-  top: 8vw;
+  top: 6vw;
   margin-bottom: 9vw;
   text-transform: uppercase;
 }
 
 #hand {
   position: absolute;
-  right: 10vw;
+  right: 15vw;
   bottom: 0;
   width: 45%;
 }

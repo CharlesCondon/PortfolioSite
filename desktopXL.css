@@ -22,8 +22,8 @@ h3 {
 
 .home {
   background-color: #f2aa4cff;
-  width: 100px;
-  height: 100px;
+  width: 4vw;
+  height: 4vw;
   text-align: center;
   position: relative;
   margin: 0;
@@ -55,7 +55,7 @@ h3 {
   position: relative;
   width: 34%;
   left: 8vw;
-  top: 8vw;
+  top: 6vw;
   margin-bottom: 9vw;
   text-transform: uppercase;
 }
