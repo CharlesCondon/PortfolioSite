@@ -1,5 +1,5 @@
 h3 {
-  font-size: 2vw;
+  font-size: 1.5vw;
   color: #f2aa4cff;
 }
 
@@ -110,19 +110,19 @@ h3 {
   border: 5px double white;
   background: rgb(255, 255, 255, 0.1);
   border-radius: 50px 15px;
-  margin: 0vw 3.5vw 3.5vw 3.5vw;
-  padding: 1vw 4vw 4vw 5vw;
+  margin: 0vw 3.5vw 3.5vw 7vw;
+  padding: 1vw 4vw 4vw 4vw;
   float: left;
 }
 
 .contactContainer {
-  margin: 10vw 0 0 0;
+  margin: 14vw 0 0 0;
 }
 
 .mediaLinks {
   text-align: center;
-  margin: 3vw 0 1vw 0;
-  font-size: 1.25vw;
+  margin: 2vw 0 0vw 0;
+  font-size: 1vw;
 }
 
 .submission {
@@ -132,6 +132,6 @@ h3 {
   border-radius: 50px;
   background: rgb(255, 255, 255, 0.1);
   padding: 11vw 9vw 10vw 9vw;
-  margin: 5vw 5vw 7vw 9vw;
+  margin: 1vw 5vw 7vw 9vw;
   width: 30%;
 }
