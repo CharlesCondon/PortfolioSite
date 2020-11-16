@@ -145,7 +145,7 @@ h3 {
 
 #self {
   display: block;
-  margin: 0em auto 0em auto;
+  margin: 0em auto 1em auto;
   width: 100%;
   height: auto;
 }
@@ -163,11 +163,13 @@ h3 {
 }
 
 #nameSpace {
-  margin: 1vw 0;
+  margin: 1vw 0 6vw 0;
+  font-size: 5vw;
+  text-align: center;
 }
 
 #mobileP {
-  font-size: 2vw;
+  font-size: 3vw;
 }
 
 /* Contact Page CSS */
@@ -175,13 +177,19 @@ h3 {
   border: 5px double white;
   background: rgb(255, 255, 255, 0.1);
   border-radius: 50px 15px;
-  margin: 0vw 3.5vw 3.5vw 7vw;
+  margin: 0vw auto 3em auto;
   padding: 1vw 4vw 4vw 4vw;
-  float: left;
+  text-align: center;
+  width: 75%;
+}
+
+#mobileLinks {
+  display: flex;
+  flex-direction: row;
 }
 
 .contactContainer {
-  margin: 14vw 0 0 0;
+  margin: 7em 0 0 0;
 }
 
 .mediaLinks {
@@ -192,11 +200,10 @@ h3 {
 
 .submission {
   text-align: center;
-  float: left;
   border: 5px double white;
   border-radius: 50px;
   background: rgb(255, 255, 255, 0.1);
   padding: 11vw 9vw 10vw 9vw;
-  margin: 1vw 5vw 7vw 9vw;
-  width: 30%;
+  margin: 1vw auto 7vw auto;
+  width: 50%;
 }
