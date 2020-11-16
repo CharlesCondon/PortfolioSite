@@ -173,14 +173,18 @@ h3 {
 }
 
 /* Contact Page CSS */
+h3 {
+  font-size: 7vw;
+}
+
 .socials {
   border: 5px double white;
   background: rgb(255, 255, 255, 0.1);
-  border-radius: 50px 15px;
+  border-radius: 50px 50px 15px 15px;
   margin: 0vw auto 3em auto;
   padding: 1vw 4vw 4vw 4vw;
   text-align: center;
-  width: 75%;
+  width: 90%;
 }
 
 #mobileLinks {
@@ -194,16 +198,21 @@ h3 {
 
 .mediaLinks {
   text-align: center;
-  margin: 2vw 0 0vw 0;
-  font-size: 1vw;
+  margin: 0vw auto 3 auto;
+  font-size: 4vw;
 }
 
 .submission {
   text-align: center;
   border: 5px double white;
-  border-radius: 50px;
+  border-radius: 15px 15px 50px 50px;
   background: rgb(255, 255, 255, 0.1);
-  padding: 11vw 9vw 10vw 9vw;
+  padding: 30vw 9vw 30vw 9vw;
   margin: 1vw auto 7vw auto;
-  width: 50%;
+  width: 75%;
+  
+}
+
+p {
+  font-size: 3vw;
 }
