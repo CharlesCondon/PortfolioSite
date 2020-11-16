@@ -61,7 +61,7 @@ h3 {
   width: 100%;
   margin-left: auto;
   margin-right: auto;
-  top: 20vw;
+  top: 16vw;
   text-transform: uppercase;
   font-size: 16vw; 
 }
@@ -99,6 +99,42 @@ h3 {
 
 #mobileSize {
   font-size: 2vw;
+}
+
+/* Art Page CSS */
+.artContainer {
+  margin: 7em 0 0 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.gif {
+  display: block;
+  margin: 0vw auto 0vw auto;
+  width: 100%; /* width of container */
+  height: 600px; /* height of container */
+  object-fit: cover;
+  position: center;
+}
+
+#gif2 {
+  display: block;
+  object-fit: cover;
+  position: center;
+  width: 65%;
+  margin: 7vw auto 7vw auto;
+}
+
+.square {
+  width: 90%;
+  border: 2px solid black;
+  margin: 3vw auto 3em auto;
+}
+
+.rectangle {
+  width: 90%;
+  border: 2px solid black;
+  margin: 3vw 4.5vw 3vw 4.5vw;
 }
 
 /* About Page CSS */
