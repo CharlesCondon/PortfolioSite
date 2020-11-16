@@ -1,1 +1,46 @@
+h3 {
+  font-size: 2vw;
+  color: #f2aa4cff;
+}
 
+/* Home Page CSS */
+#hand {
+  position: absolute;
+  right: 10vw;
+  bottom: 0;
+  width: 50%;
+}
+
+#flair {
+  display: block;
+  background-color: #f2aa4cff;
+  position: absolute;
+  width: 20%;
+  text-align: center;
+  border-radius: 0 50px 50px 0;
+  left: 0;
+  padding: 0 2vw 0 11vw;
+}
+
+/* About Page CSS */
+.aboutContainer {
+  margin: 17em 0 0 0;
+  display: flex;
+  flex-direction: row;
+}
+
+#self {
+  display: block;
+  margin: 0em 0 0em 11em;
+  border: 5px double white;
+  border-radius: 50px 15px;
+}
+
+#aboutCol {
+  flex-direction: column;
+  margin: 0 11vw;
+}
+
+#nameSpace {
+  margin: 1vw 0;
+}

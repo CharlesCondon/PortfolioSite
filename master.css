@@ -3,14 +3,7 @@ header {
   display: block;
 }
 
-.header {
-  padding: 1em 0;
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  z-index: 9;
-}
+
 body {
   font-family: hobo-std, sans-serif;
   margin: 2em;
@@ -60,56 +53,7 @@ p {
   font-size: .86vw;
 }
 
-.menuItem {
-  padding: 0 40px 0 0;
-}
 
-.container {
-  display: flex;
-  flex-direction: row;
-  padding: 0 10vw;
-  align-items: center;
-}
-
-@media (max-width: 1620px) .container {
-  max-width: 1400px;
-  margin: 0 auto;
-  padding: 0 1rem;
-}
-
-.home {
-  background-color: #f2aa4cff;
-  width: 100px;
-  height: 100px;
-  text-align: center;
-  position: relative;
-  margin: 0;
-  padding: 1em;
-  border-radius: 50%;
-}
-
-.logo {
-  padding: auto;
-  margin: auto;
-  width: 100%;
-  height: auto;
-}
-
-.name {
-  display: block;
-  position: relative;
-  width: 34%;
-  left: 8vw;
-  top: 8vw;
-  margin-bottom: 9vw;
-  text-transform: uppercase;
-}
-
-.navigation {
-  position: absolute;
-  margin: 0 10vw;
-  right: 0;
-}
 
 
 
