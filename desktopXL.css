@@ -119,8 +119,15 @@ h3 {
 #self {
   display: block;
   margin: 0em 0 0em 11em;
+  width: 100%;
+  height: auto;
+}
+
+#self2 {
   border: 5px double white;
   border-radius: 50px 15px;
+  width: 100%;
+  height: auto;
 }
 
 #aboutCol {
