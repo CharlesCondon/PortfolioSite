@@ -4,6 +4,13 @@ h3 {
 }
 
 /* Home Page CSS */
+#hand {
+  position: absolute;
+  right: 10vw;
+  bottom: 0;
+  width: 50%;
+}
+
 #flair {
   display: block;
   background-color: #f2aa4cff;
@@ -12,7 +19,6 @@ h3 {
   text-align: center;
   border-radius: 0 50px 50px 0;
   left: 0;
-  bottom: 9vw;
   padding: 0 2vw 0 11vw;
 }
 
