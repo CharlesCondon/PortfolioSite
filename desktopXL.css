@@ -3,6 +3,19 @@ h3 {
   color: #f2aa4cff;
 }
 
+/* Home Page CSS */
+#flair {
+  display: block;
+  background-color: #f2aa4cff;
+  position: absolute;
+  width: 20%;
+  text-align: center;
+  border-radius: 0 50px 50px 0;
+  left: 0;
+  bottom: 9vw;
+  padding: 0 2vw 0 11vw;
+}
+
 /* Contact Page CSS */
 .socials {
   border: 5px double white;

@@ -111,17 +111,7 @@ p {
   right: 0;
 }
 
-#flair {
-  display: block;
-  background-color: #f2aa4cff;
-  position: absolute;
-  width: 20%;
-  text-align: center;
-  border-radius: 0 50px 50px 0;
-  left: 0;
-  bottom: 9vw;
-  padding: 0 2vw 0 11vw;
-}
+
 
 #hand {
   position: absolute;
