@@ -36,18 +36,14 @@ h3 {
   margin: 0 10vw;
   right: 0;
 }
-//////////////////////////////////////////
 
-
-
-///////////////////////////////////////
 .menuItem {
-  padding: 0 40px 0 0;
-  font-size: .85vw;
+  padding: 0 20px 0 0;
+  font-size: 3vw;
 }
 
 #menuItem2 {
-  font-size: .85vw;
+  font-size: 3vw;
 }
 
 .logo {
@@ -61,11 +57,13 @@ h3 {
 .name {
   display: block;
   position: relative;
-  width: 34%;
-  left: 8vw;
-  top: 6vw;
-  margin-bottom: 9vw;
+  text-align: center;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  top: 20vw;
   text-transform: uppercase;
+  font-size: 16vw; 
 }
 
 #hand {
@@ -79,11 +77,12 @@ h3 {
   display: block;
   background-color: #f2aa4cff;
   position: absolute;
-  width: 20%;
+  width: 60%;
   text-align: center;
   border-radius: 0 50px 50px 0;
   left: 0;
   padding: 0 2vw 0 11vw;
+  margin: 15vw 0 0 0;
 }
 
 /* About Page CSS */
