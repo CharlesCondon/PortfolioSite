@@ -85,7 +85,7 @@ h3 {
   background: rgb(255, 255, 255, 0.1);
   border-radius: 50px 15px;
   margin: 0vw 3.5vw 3.5vw 3.5vw;
-  padding: 1vw 4vw 4vw 5vw;
+  padding: 1vw 4vw 4vw 4vw;
   float: left;
 }
 
@@ -94,10 +94,8 @@ h3 {
 }
 
 .mediaLinks {
-  text-align: left;
-  color: black;
-  padding: 0;
-  margin: 0vw;
+  text-align: center;
+  margin: 3vw 0 1vw 0;
 }
 
 .submission {
