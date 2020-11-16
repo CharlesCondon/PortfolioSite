@@ -68,21 +68,37 @@ h3 {
 
 #hand {
   position: absolute;
-  right: 15vw;
+  right: 16vw;
   bottom: 0;
-  width: 45%;
+  width: 75%;
 }
 
 #flair {
   display: block;
   background-color: #f2aa4cff;
   position: absolute;
-  width: 60%;
+  width: 50%;
   text-align: center;
   border-radius: 0 50px 50px 0;
   left: 0;
-  padding: 0 2vw 0 11vw;
+  padding: 0 10vw 0 11vw;
   margin: 15vw 0 0 0;
+}
+
+#mobileFlair {
+  display: block;
+  background-color: #f2aa4cff;
+  position: absolute;
+  width: 2%;
+  border-radius: 50px 0px 0px 50px;
+  right: 0;
+  padding: 0 10vw 0 11vw;
+  margin: 15vw 0 0 0;
+  height: 6.5vw;
+}
+
+#mobileSize {
+  font-size: 2vw;
 }
 
 /* About Page CSS */
