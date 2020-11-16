@@ -47,9 +47,9 @@ h3 {
 }
 
 .logo {
-  padding: auto;
-  margin: auto;
-  width: 100%;
+  padding:0 0 0 0;
+  margin: -.5em 0 0 -.55em;
+  width: 200%;
   height: auto;
 }
 
@@ -198,7 +198,7 @@ h3 {
 
 .mediaLinks {
   text-align: center;
-  margin: 0vw auto 3 auto;
+  margin: 0vw auto 1em auto;
   font-size: 4vw;
 }
 

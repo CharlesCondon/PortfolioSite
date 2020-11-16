@@ -1,14 +1,74 @@
 h3 {
-  font-size: 2vw;
+  font-size: 1.5vw;
   color: #f2aa4cff;
 }
 
+/* Nav Bar CSS */
+.container {
+  display: flex;
+  flex-direction: row;
+  padding: 0 10vw;
+  align-items: center;
+}
+
+.header {
+  padding: 1em 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 9;
+}
+
+.home {
+  background-color: #f2aa4cff;
+  width: 5vw;
+  height: 5vw;
+  text-align: center;
+  position: relative;
+  margin: 0;
+  padding: 1em;
+  border-radius: 50%;
+}
+
+.navigation {
+  position: absolute;
+  margin: 0 10vw;
+  right: 0;
+}
+
+.menuItem {
+  padding: 0 40px 0 0;
+  font-size: .85vw;
+}
+
+#menuItem2 {
+  font-size: .85vw;
+}
+
+.logo {
+  padding: auto;
+  margin: auto;
+  width: 100%;
+  height: auto;
+}
+
 /* Home Page CSS */
+.name {
+  display: block;
+  position: relative;
+  width: 34%;
+  left: 8vw;
+  top: 6vw;
+  margin-bottom: 9vw;
+  text-transform: uppercase;
+}
+
 #hand {
   position: absolute;
-  right: 10vw;
+  right: 15vw;
   bottom: 0;
-  width: 50%;
+  width: 45%;
 }
 
 #flair {
@@ -22,18 +82,59 @@ h3 {
   padding: 0 2vw 0 11vw;
 }
 
+/* Art Page CSS */
+.artContainer {
+  margin: 14em 0 0 0;
+}
+
+.gif {
+  display: block;
+  margin: 0vw auto 0vw auto;
+  width: 1200px; /* width of container */
+  height: 600px; /* height of container */
+  object-fit: cover;
+  position: center;
+}
+
+#gif2 {
+  display: block;
+  object-fit: cover;
+  position: center;
+  width: 65%;
+  margin: 7vw auto 7vw auto;
+}
+
+.square {
+  width: 35%;
+  border: 2px solid black;
+  margin: 3vw 6.75vw 3vw 6.75vw;
+}
+
+.rectangle {
+  width: 40%;
+  border: 2px solid black;
+  margin: 3vw 4.5vw 3vw 4.5vw;
+}
+
 /* About Page CSS */
 .aboutContainer {
-  margin: 17em 0 0 0;
+  margin: 13em 0 0 0;
   display: flex;
   flex-direction: row;
 }
 
 #self {
   display: block;
-  margin: 0em 0 0em 11em;
+  margin: 0em 7em 0em 9em;
+  width: 140%;
+  height: auto;
+}
+
+#self2 {
   border: 5px double white;
   border-radius: 50px 15px;
+  width: 140%;
+  height: auto;
 }
 
 #aboutCol {
@@ -43,4 +144,35 @@ h3 {
 
 #nameSpace {
   margin: 1vw 0;
+}
+
+/* Contact Page CSS */
+.socials {
+  border: 5px double white;
+  background: rgb(255, 255, 255, 0.1);
+  border-radius: 50px 15px;
+  margin: 0vw 3.5vw 3.5vw 7vw;
+  padding: 1vw 4vw 4vw 4vw;
+  float: left;
+}
+
+.contactContainer {
+  margin: 14vw 0 0 0;
+}
+
+.mediaLinks {
+  text-align: center;
+  margin: 2vw 0 0vw 0;
+  font-size: 1vw;
+}
+
+.submission {
+  text-align: center;
+  float: left;
+  border: 5px double white;
+  border-radius: 50px;
+  background: rgb(255, 255, 255, 0.1);
+  padding: 11vw 9vw 10vw 9vw;
+  margin: 1vw 5vw 7vw 9vw;
+  width: 30%;
 }
