@@ -131,7 +131,7 @@ h3 {
 }
 
 #self2 {
-  border: 5px double white;
+  border: 5px double orange;
   border-radius: 50px 15px;
   width: 140%;
   height: auto;
@@ -148,7 +148,7 @@ h3 {
 
 /* Contact Page CSS */
 .socials {
-  border: 5px double white;
+  border: 5px double orange;
   background: rgb(255, 255, 255, 0.1);
   border-radius: 50px 15px;
   margin: 0vw 3.5vw 3.5vw 7vw;
@@ -169,7 +169,7 @@ h3 {
 .submission {
   text-align: center;
   float: left;
-  border: 5px double white;
+  border: 5px double orange;
   border-radius: 50px;
   background: rgb(255, 255, 255, 0.1);
   padding: 11vw 9vw 10vw 9vw;

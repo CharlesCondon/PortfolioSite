@@ -151,7 +151,7 @@ h3 {
 }
 
 #self2 {
-  border: 5px double white;
+  border: 5px double orange;
   border-radius: 50px 15px;
   width: 100%;
   height: auto;
@@ -178,7 +178,7 @@ h3 {
 }
 
 .socials {
-  border: 5px double white;
+  border: 5px double orange;
   background: rgb(255, 255, 255, 0.1);
   border-radius: 50px 50px 15px 15px;
   margin: 0vw auto 3em auto;
@@ -204,7 +204,7 @@ h3 {
 
 .submission {
   text-align: center;
-  border: 5px double white;
+  border: 5px double orange;
   border-radius: 15px 15px 50px 50px;
   background: rgb(255, 255, 255, 0.1);
   padding: 30vw 4.5vw 30vw 3vw;
