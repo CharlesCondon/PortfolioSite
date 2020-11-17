@@ -90,11 +90,12 @@ h3 {
 
 .gif {
   display: block;
-  margin: 0vw auto 0vw auto;
+  margin: -3vw auto -3vw auto;
   width: 1200px; /* width of container */
   height: 600px; /* height of container */
   object-fit: cover;
   position: center;
+  width: 75%;
 }
 
 #gif2 {
@@ -106,13 +107,13 @@ h3 {
 }
 
 .square {
-  width: 25%;
+  width: 34%;
   border: 2px solid white;
   margin: 3vw 6.75vw 3vw 6.75vw;
 }
 
 .rectangle {
-  width: 40%;
+  width: 39%;
   border: 2px solid black;
   margin: 3vw 4.5vw 3vw 4.5vw;
 }
@@ -127,14 +128,14 @@ h3 {
 #self {
   display: block;
   margin: 0em 7em 0em 9em;
-  width: 140%;
+  width: 165%;
   height: auto;
 }
 
 #self2 {
-  border: 5px double white;
+  border: 5px double #f2aa4cff;
   border-radius: 50px 15px;
-  width: 140%;
+  width: 165%;
   height: auto;
 }
 
@@ -149,7 +150,7 @@ h3 {
 
 /* Contact Page CSS */
 .socials {
-  border: 5px double white;
+  border: 5px double #f2aa4cff;
   background: rgb(255, 255, 255, 0.1);
   border-radius: 50px 15px;
   margin: 0vw 3.5vw 3.5vw 7vw;
@@ -170,7 +171,7 @@ h3 {
 .submission {
   text-align: center;
   float: left;
-  border: 5px double white;
+  border: 5px double #f2aa4cff;
   border-radius: 50px;
   background: rgb(255, 255, 255, 0.1);
   padding: 11vw 9vw 10vw 9vw;
