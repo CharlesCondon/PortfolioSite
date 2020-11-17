@@ -90,7 +90,7 @@ h3 {
 
 .gif {
   display: block;
-  margin: -3vw auto -3vw auto;
+  margin: -8vw auto -11vw auto;
   width: 1200px; /* width of container */
   height: 600px; /* height of container */
   object-fit: cover;
@@ -108,7 +108,7 @@ h3 {
 
 .square {
   width: 34%;
-  border: 2px solid white;
+  border: 2px solid black;
   margin: 3vw 6.75vw 3vw 6.75vw;
 }
 
