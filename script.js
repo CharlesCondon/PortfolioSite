@@ -4,4 +4,14 @@
 // prints "hi" in the browser's dev tools console
 console.log("hi");
 
-
+$(function() {
+  $("form[id=contactForm]").validate({
+    rules: {
+      name: "required",
+      email: {
+        required: true,
+        email: true
+      }
+    }
+  }
+}
