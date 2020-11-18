@@ -11,7 +11,15 @@ $(function() {
       email: {
         required: true,
         email: true
-      }
+      },
+    },
+    submitHandler: function(form) {
+      form.submit();
+    },
+    highlight: function(element, errorClass) {
+      $(element).fadeOut(function() {
+        $(element).fadeIn();
+      });
     }
-  }
-}
+  });
+});
