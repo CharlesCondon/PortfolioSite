@@ -223,3 +223,42 @@ h3 {
 p {
   font-size: 3vw;
 }
+
+/* Code Page CSS */
+.codeContainer {
+  margin: 7em auto 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.example {
+  flex-direction: column;
+  border: 5px double #f2aa4cff;
+  border-radius: 15px 50px;
+  background: rgb(255, 255, 255, 0.1);
+  padding: 0em 2em 1em 2em;
+  margin: 0 auto 0 auto;
+}
+
+.exp {
+  flex-direction: column;
+  border: 5px double #f2aa4cff;
+  border-radius: 50px 15px;
+  background: rgb(255, 255, 255, 0.1);
+  width: 75%;
+  margin: 0 auto 3em auto;
+  padding: 0em 2em 1em 2em;
+}
+
+.expWords p{
+  font-size: 3vw; 
+}
+
+.codeLinks {
+  font-size: 3vw;
+  margin: 0 0 1em 0;
+}
+
+#codeEx {
+  margin: 1em 0 2em 0;
+}

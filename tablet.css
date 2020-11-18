@@ -178,3 +178,41 @@ h3 {
   margin: 1vw 5vw 7vw 9vw;
   width: 30%;
 }
+
+/* Code Page CSS */
+.codeContainer {
+  margin: 14em 9em 0 9em;
+  display: flex;
+  flex-direction: row;
+}
+
+.example {
+  flex-direction: column;
+  border: 5px double #f2aa4cff;
+  border-radius: 15px 50px;
+  background: rgb(255, 255, 255, 0.1);
+  padding: 1em 4em 2em 4em;
+  margin: 0 0 0 5em;
+}
+
+.exp {
+  flex-direction: column;
+  border: 5px double #f2aa4cff;
+  border-radius: 50px 15px;
+  background: rgb(255, 255, 255, 0.1);
+  width: 55%;
+  padding: 1em 4em 2em 4em;
+}
+
+.expWords p{
+  font-size: 1.25vw; 
+}
+
+.codeLinks {
+  font-size: 1.25vw;
+  margin: 0 0 1em 0;
+}
+
+#codeEx {
+  margin: 1em 0 2em 0;
+}
