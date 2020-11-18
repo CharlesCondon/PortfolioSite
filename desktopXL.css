@@ -138,7 +138,7 @@ h3 {
   border: 5px double #f2aa4cff;
   border-radius: 50px;
   background: rgb(255, 255, 255, 0.1);
-  padding: 11vw 9vw 10vw 9vw;
+  padding: 5vw 4vw 5vw 4vw;
   margin: 5vw 5vw 7vw 9vw;
   width: 30%;
 }
@@ -150,6 +150,11 @@ h3 {
 }
 
 .contactBoxes{
+
+}
+
+input {
+  width: 100%;
   border: 2px solid white;
   width: 100%;
   margin: 0 0 2em 0;
