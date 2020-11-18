@@ -13,9 +13,9 @@ $(function() {
         email: true
       }
     },
-    highlight: function(element, errorClass) {
-      $(element).fadeOut(function() {
-        $(element).fadeIn();
+    highlight: function(input, errorClass) {
+      $(input).fadeOut(function() {
+        $(input).fadeIn();
       });
     },
     submitHandler: function(form) {
