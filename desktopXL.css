@@ -146,7 +146,6 @@ h3 {
 #contact {
   display: flex;
   flex-direction: column;
-  border: 2px solid white;
 }
 
 .contactBoxes{
@@ -154,11 +153,19 @@ h3 {
 }
 
 input {
+  background-color: rgb(16, 24, 32, 0.5);
   width: 100%;
-  border: 2px solid white;
+  border: 3px solid black;
   width: 100%;
   margin: 0 0 2em 0;
-  padding: 0 0 0 0;
+  padding: 1em 0 1em 0;
+}
+
+input[type=submit] {
+  background-color: rgb(16, 24, 32, 0.5);
+  color: #f2aa4cff;
+  font-size: 2em;
+  width: 50%;
 }
 
 /* About Page CSS */
