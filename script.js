@@ -11,15 +11,15 @@ $(function() {
       email: {
         required: true,
         email: true
-      },
+      }
+    },
+    highlight: function(element, errorClass) {
+      $(element).fadeOut(function() {
+        $(element).fadeIn();
+      });
     },
     submitHandler: function(form) {
       form.submit();
-    },
-    highlight: function(inp, errorClass) {
-      $(input).fadeOut(function() {
-        $(input).fadeIn();
-      });
-    },
+    }
   });
 });
