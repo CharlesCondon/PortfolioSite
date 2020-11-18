@@ -262,3 +262,9 @@ p {
 #codeEx {
   margin: 1em 0 2em 0;
 }
+
+#codecamp {
+  text-align: center;
+  font-size: 5vw;
+  margin: 2em auto 1em auto;
+}
