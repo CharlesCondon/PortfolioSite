@@ -5,7 +5,7 @@
 console.log("hi");
 
 $(function() {
-  $("form[id=contactForm]").validate({
+  $("input[class=req]").validate({
     rules: {
       name: "required",
       email: {
@@ -16,9 +16,9 @@ $(function() {
     submitHandler: function(form) {
       form.submit();
     },
-    highlight: function(input[class=req], errorClass) {
-      $(element).fadeOut(function() {
-        $(element).fadeIn();
+    highlight: function(inp, errorClass) {
+      $(input).fadeOut(function() {
+        $(input).fadeIn();
       });
     },
   });
