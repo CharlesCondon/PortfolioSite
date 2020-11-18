@@ -143,6 +143,12 @@ h3 {
   width: 30%;
 }
 
+#contact {
+  display: flex;
+  flex-direction: column;
+  border: 2px solid white;
+}
+
 /* About Page CSS */
 .aboutContainer {
   margin: 13em 0 0 0;
