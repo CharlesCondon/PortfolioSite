@@ -138,7 +138,7 @@ h3 {
   border: 5px double #f2aa4cff;
   border-radius: 50px;
   background: rgb(255, 255, 255, 0.1);
-  padding: 5vw 4vw 5vw 4vw;
+  padding: 2vw 2vw 2vw 2vw;
   margin: 5vw 5vw 7vw 9vw;
   width: 30%;
 }
@@ -148,24 +148,34 @@ h3 {
   flex-direction: column;
 }
 
-.contactBoxes{
-
-}
-
 input {
   background-color: rgb(16, 24, 32, 0.5);
   width: 100%;
   border: 3px solid black;
   width: 100%;
-  margin: 0 0 2em 0;
-  padding: 1em 0 1em 0;
+  margin: 0 auto 2em auto;
+  padding: 1em 0em 1em .5em;
+  color: white;
+}
+
+textarea {
+  background-color: rgb(16, 24, 32, 0.5);
+  width: 100%;
+  border: 3px solid black;
+  width: 100%;
+  margin: 0 auto 2em auto;
+  padding: 1em 0em 1em .5em;
+  color: white;  
 }
 
 input[type=submit] {
+  font-family: hobo-std, sans-serif;
   background-color: rgb(16, 24, 32, 0.5);
   color: #f2aa4cff;
-  font-size: 2em;
-  width: 50%;
+  font-size: 1.5em;
+  padding: 0 0 0 0;
+  margin: 0 0 0 0;
+  width: 20%;
 }
 
 /* About Page CSS */
