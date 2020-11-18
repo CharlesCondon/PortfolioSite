@@ -217,6 +217,7 @@ input[type=submit] {
 input.invalid, textarea.invalid{
 	border: 2px solid red;
 }
+
 /* Code Page CSS */
 .codeContainer {
   margin: 14em 9em 0 9em;

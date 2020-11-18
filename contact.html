@@ -39,8 +39,6 @@
 
     <!-- Prevent smartphones from scaling pages down -->
     <meta name="viewport" content="initial-scale=1" />
-
-
   </head>
 
   <body>
@@ -76,11 +74,13 @@
             Social Media
           </h3>
           <div id="mobileLinks">
-            <p class="mediaLinks">
+            <div id="test">
               <a href="https://www.instagram.com/char.leys/" target="_blank"
-                >Instagram</a
-              >
-            </p>
+                ><link
+                  src="https://cdn.glitch.com/404bb06c-4b66-4860-905d-4ad52d1e7e07%2FInstagram-black-and-white-logo-vector-png-(5).png?v=1605731686559"
+                  alt="Instagram"
+              /></a>
+            </div>
             <br />
             <p class="mediaLinks">
               <a href="https://giphy.com/charlescon" target="_blank">Giphy</a>
@@ -103,34 +103,45 @@
         </div>
 
         <div class="submission">
-          <form id="contactForm" action="https://formspree.io/f/xleolaod" method="POST">
+          <form
+            id="contactForm"
+            action="https://formspree.io/f/xleolaod"
+            method="POST"
+          >
             <div>
-              <input class="req" type="text" name="name" placeholder="NAME*"/>
+              <input class="req" type="text" name="name" placeholder="NAME*" />
             </div>
             <div>
-              <input class="req" type="email" name="_replyto" placeholder="EMAIL*"/>
+              <input
+                class="req"
+                type="email"
+                name="_replyto"
+                placeholder="EMAIL*"
+              />
             </div>
             <div>
-              <input  type="text" name="subject" placeholder="SUBJECT"/>
+              <input type="text" name="subject" placeholder="SUBJECT" />
             </div>
             <div>
               <textarea name="message" placeholder="MESSAGE"></textarea>
             </div>
             <div>
-              <input  type="submit" value="SEND" />
+              <input type="submit" value="SEND" />
             </div>
-            
           </form>
         </div>
       </div>
     </main>
-    
+
     <!-- Add jQuery -->
-    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha256-/SIrNqv8h6QGKDuNoLGA4iret+kyesCkHGzVUUV0shc=" crossorigin="anonymous"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.1.1.slim.min.js"
+      integrity="sha256-/SIrNqv8h6QGKDuNoLGA4iret+kyesCkHGzVUUV0shc="
+      crossorigin="anonymous"
+    ></script>
     <!-- Include jQuery Validation Plugin-->
     <script src="https://cdn.jsdelivr.net/jquery.validation/1.15.1/jquery.validate.min.js"></script>
     <!-- import the webpage's javascript file -->
     <script src="/script.js" defer></script>
-    
   </body>
 </html>
