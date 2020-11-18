@@ -105,10 +105,18 @@
 
         <div class="submission">
           <form id="contact" action="https://formspree.io/f/xleolaod" method="POST">
-            <input type="text" name="name" placeholder="WHATS'S YOUR NAME?" required/>
-            <input type="email" name="_replyto" placeholder="EMAIL" required/>
-            <input type=""
-            <input type="submit" value="Send" />
+            <div class="contactBoxes">
+              <input  type="text" name="name" placeholder="NAME*" required/>
+            </div>
+            <div class="contactBoxes">
+              <input type="email" name="_replyto" placeholder="EMAIL*" required/>
+            </div>
+            <div class="contactBoxes">
+              <input  type="text" name="subject" placeholder="SUBJECT"/>
+            </div>
+            <div class="contactBoxes">
+              <input  type="submit" value="Send" />
+            </div>
           </form>
         </div>
       </div>
