@@ -184,8 +184,6 @@ h3 {
   border: 5px double #f2aa4cff;
   border-radius: 15px 50px;
   background: rgb(255, 255, 255, 0.1);
-  padding: 1em 4em 4em 4em;
-  margin: 0 0 0 5em;
 }
 
 .exp {
@@ -193,8 +191,7 @@ h3 {
   border: 5px double #f2aa4cff;
   border-radius: 50px 15px;
   background: rgb(255, 255, 255, 0.1);
-  margin: 0 5em 0 0;
-  padding: 1em 4em 4em 4em;
+  padding: 1em 4em 2em 4em;
 }
 
 .expWords p{
@@ -203,4 +200,9 @@ h3 {
 
 .codeLinks {
   font-size: 1.25vw;
+  border: 2px solid white;
+}
+
+#codeEx {
+  padding: 0 0 0 0;
 }
