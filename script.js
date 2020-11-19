@@ -12,10 +12,6 @@ $(document).ready( function() {
         required: true,
         email: true
       }
-    },
-    messages: {
-      name: "Please enter your first name",
-      email: "Please enter a valid email address",
     },    submitHandler: function(form) {
       form.submit();
     }
