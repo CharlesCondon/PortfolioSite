@@ -5,7 +5,7 @@
 console.log("hi");
 
 $(document).ready( function() {
-  $("form").validate({
+  $("form[name='contactForm']").validate({
     rules: {
       name: "required",
       email: {
