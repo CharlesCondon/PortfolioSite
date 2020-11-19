@@ -4,8 +4,8 @@
 // prints "hi" in the browser's dev tools console
 console.log("hi");
 
-$(function() {
-  $("input[class=req]").validate({
+$(document).ready( function() {
+  $("form").validate({
     rules: {
       name: "required",
       email: {
