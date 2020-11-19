@@ -68,8 +68,14 @@ h3 {
   position: absolute;
   right: 15vw;
   bottom: 0;
+  width: 45%; 
+}
+
+#fire {
+  position: absolute;
+  right: 15vw;
+  bottom: 0;
   width: 45%;
-  
 }
 
 #flair {

@@ -85,7 +85,7 @@ p {
 .burn {
   animation-name: burn;
   animation-iteration-count: infinite;
-  animation-duration: 7s;
+  animation-duration: 9s;
   animation-timing-gunction: ease-out;
 }
 
@@ -97,7 +97,7 @@ p {
     opacity: 1;
   }
   65% {
-    opacity: 
+    opacity: 1;
   }
   100% {
     opacity: 0;
