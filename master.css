@@ -96,6 +96,9 @@ p {
   50% {
     opacity: 1;
   }
+  65% {
+    opacity: 
+  }
   100% {
     opacity: 0;
   }

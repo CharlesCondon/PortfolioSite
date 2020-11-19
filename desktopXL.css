@@ -66,6 +66,13 @@ h3 {
   width: 50%;
 }
 
+#fire {
+  position: absolute;
+  right: 10vw;
+  bottom: 0;
+  width: 50%;
+}
+
 #flair {
   display: block;
   background-color: #f2aa4cff;
