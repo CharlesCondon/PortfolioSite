@@ -13,13 +13,12 @@ $(document).ready( function() {
         email: true
       }
     },
-    highlight: function(element, errorClass) {
-      $(element).fadeOut(function() {
-        $(element).fadeIn();
-      });
-    },
-    submitHandler: function(form) {
+    messages: {
+      name: "Please enter your first name",
+      email: "Please enter a valid email address",
+    },    submitHandler: function(form) {
       form.submit();
     }
   });
 });
+ 
