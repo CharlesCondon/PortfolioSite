@@ -7,7 +7,10 @@ console.log("hi");
 $(document).ready( function() {
   $("#contactForm").validate({
     rules: {
-      name: "required",
+      name: {
+        required: true,
+        lettersonly: true
+      },
       email: {
         required: true,
         email: true

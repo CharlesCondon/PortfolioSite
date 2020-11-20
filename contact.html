@@ -39,8 +39,6 @@
 
     <!-- Prevent smartphones from scaling pages down -->
     <meta name="viewport" content="initial-scale=1" />
-
-
   </head>
 
   <body>
@@ -103,34 +101,58 @@
         </div>
 
         <div class="submission">
-          <form id="contactForm" action="https://formspree.io/f/xleolaod" method="POST">
+          <form
+            id="contactForm"
+            action="https://formspree.io/f/xleolaod"
+            method="POST"
+          >
             <div>
-              <input class="req" type="text" name="name" placeholder="NAME*" required/>
+              <input
+                class="req"
+                type="text"
+                name="name"
+                placeholder="NAME*"
+                required
+              />
             </div>
             <div>
-              <input class="req" type="email" name="_replyto" placeholder="EMAIL*" required/>
+              <input
+                class="req"
+                type="email"
+                name="_replyto"
+                placeholder="EMAIL*"
+                required
+              />
             </div>
             <div>
-              <input  type="text" name="subject" placeholder="SUBJECT"/>
+              <input type="text" name="subject" placeholder="SUBJECT" />
             </div>
             <div>
               <textarea name="message" placeholder="MESSAGE"></textarea>
             </div>
             <div>
-              <input  type="submit" value="SEND" />
+              <input type="submit" value="SEND" />
             </div>
-            
           </form>
         </div>
       </div>
     </main>
-    
+
     <!-- Add jQuery -->
-    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha256-/SIrNqv8h6QGKDuNoLGA4iret+kyesCkHGzVUUV0shc=" crossorigin="anonymous"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.1.1.slim.min.js"
+      integrity="sha256-/SIrNqv8h6QGKDuNoLGA4iret+kyesCkHGzVUUV0shc="
+      crossorigin="anonymous"
+    ></script>
     <!-- Include jQuery Validation Plugin-->
     <script src="https://cdn.jsdelivr.net/jquery.validation/1.15.1/jquery.validate.min.js"></script>
+    <!-- Additional Methods for JQuery Validation -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.2/additional-methods.min.js"
+      integrity="sha512-6Uv+497AWTmj/6V14BsQioPrm3kgwmK9HYIyWP+vClykX52b0zrDGP7lajZoIY1nNlX4oQuh7zsGjmF7D0VZYA=="
+      crossorigin="anonymous"
+    ></script>
     <!-- import the webpage's javascript file -->
     <script src="/validate.js" defer></script>
-    
   </body>
 </html>
