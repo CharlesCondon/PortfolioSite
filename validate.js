@@ -21,14 +21,13 @@ $(document).ready(function() {
     },
     highlight: function(element) {
       $(element)
-        .closest('.form-group')
-        .addClass('has-error');
+        .closest(".req")
+        .addClass("inputError");
     },
     unhighlight: function(element) {
       $(element)
-        .closest('.form-group')
-        .removeClass('has-error');
-    },
+        .closest(".req")
+        .removeClass("inputError");
+    }
   });
-  
 });
