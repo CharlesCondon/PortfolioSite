@@ -73,9 +73,9 @@ h3 {
 
 #fire {
   position: absolute;
-  right: 15vw;
-  bottom: 0;
-  width: 45%;
+  right: 30vw;
+  bottom: 16vw;
+  width: 13%;
 }
 
 #flair {
@@ -128,16 +128,16 @@ h3 {
 
 @keyframes burn {
   0% {
-    opacity: 0;
+    opacity: 1;
   }
   50% {
-    opacity: 1;
+    opacity: 0;
   }
   65% {
-    opacity: 1;
+    opacity: 0;
   }
   100% {
-    opacity: 0;
+    opacity: 1;
   }
 }
 
