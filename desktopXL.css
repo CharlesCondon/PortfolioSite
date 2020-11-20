@@ -64,6 +64,8 @@ h3 {
   right: 10vw;
   bottom: 0;
   width: 50%;
+  object-fit: cover;
+  object-position: 20% 20%;
 }
 
 #fire {
@@ -138,6 +140,29 @@ h3 {
     opacity: 0;
   }
 }
+
+.burn2 {
+  animation-name: burn;
+  animation-iteration-count: infinite;
+  animation-duration: 9s;
+  animation-timing-gunction: ease-out;  
+}
+
+@keyframes burn {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  65% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
 
 /* Art Page CSS */
 .artContainer {
