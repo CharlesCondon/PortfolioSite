@@ -68,12 +68,11 @@ h3 {
 
 #fire {
   position: absolute;
-  right: 10vw;
-  bottom: 0;
-  width: 50%;
+  right: 32em;
+  bottom: 22em;
+  width: 13%;
   padding: 0 0 0 0;
   border: 2px solid white;
-  object-fit: cover;
 }
 
 #fireCrop {
