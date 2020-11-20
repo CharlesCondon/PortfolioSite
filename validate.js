@@ -4,21 +4,7 @@
 // prints "hi" in the browser's dev tools console
 console.log("hi");
 
-$.validator.setDefaults({
-  errorClass: 'help-block',
-  highlight: function(element) {
-    $(element)
-      .closest('.form-group')
-      .addClass('has-error');
-  },
-  unhighlight: function(element) {
-    $(element)
-      .closest('.form-group')
-      .removeClass('has-error');
-  }
-});
-
-$(document).ready( function() {
+$(document).ready(function() {
   $("#contactForm").validate({
     rules: {
       name: {
@@ -29,10 +15,22 @@ $(document).ready( function() {
         required: true,
         email: true
       }
-    },    
+    },
     submitHandler: function(form) {
       form.submit();
     }
   });
+  $.validator.setDefaults({
+    errorClass: 'errorText',
+    highlight: function(element) {
+      $(element)
+        .closest(".form-group")
+        .addClass("has-error");
+    },
+    unhighlight: function(element) {
+      $(element)
+        .closest(".form-group")
+        .removeClass("has-error");
+    }
+  });
 });
- 

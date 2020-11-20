@@ -249,6 +249,10 @@ input.invalid, textarea.invalid{
 	border: 2px solid red;
 }
 
+.errorText {
+  color: red;
+}
+
 /* About Page CSS */
 .aboutContainer {
   margin: 13em 0 0 0;
