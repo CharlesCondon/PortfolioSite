@@ -115,6 +115,58 @@ h3 {
   font-size: 2vw;
 }
 
+#slide {
+  animation-name: slide;
+  animation-duration: 3s;
+  animation-timing-function: ease-out;
+}
+
+@keyframes slide {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.fade {
+  animation-name: fade;
+  animation-duration: 6s;
+  animation-timing-function: ease-out;
+}
+
+@keyframes fade {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.burn {
+  animation-name: burn;
+  animation-iteration-count: infinite;
+  animation-duration: 9s;
+  animation-timing-gunction: ease-out;
+}
+
+@keyframes burn {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  65% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
 /* Art Page CSS */
 .artContainer {
   margin: 7em 0 0 0;

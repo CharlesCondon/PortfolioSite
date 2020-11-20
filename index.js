@@ -1,5 +1,5 @@
-$(document).ready(function(){
-  $("img[id=fire]").hover() ({
-     $(this.element).show();
+$(document).ready(function() {
+  $(".burn").hover(function() {
+    $(this).css("opacity", "1");
   });
 });
