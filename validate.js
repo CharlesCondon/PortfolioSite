@@ -18,19 +18,17 @@ $(document).ready(function() {
     },
     submitHandler: function(form) {
       form.submit();
-    }
-  });
-  $.validator.setDefaults({
-    errorClass: 'errorText',
+    },
     highlight: function(element) {
       $(element)
-        .closest(".form-group")
-        .addClass("has-error");
+        .closest('.form-group')
+        .addClass('has-error');
     },
     unhighlight: function(element) {
       $(element)
-        .closest(".form-group")
-        .removeClass("has-error");
-    }
+        .closest('.form-group')
+        .removeClass('has-error');
+    },
   });
+  
 });

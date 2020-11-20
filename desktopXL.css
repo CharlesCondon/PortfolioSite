@@ -249,9 +249,21 @@ input.invalid, textarea.invalid{
 	border: 2px solid red;
 }
 
-.errorText {
-  color: red;
+label {
+  color: #FF7F7F;
 }
+
+.inputError {
+  background-color: rgb(16, 24, 32, 0.5);
+  width: 100%;
+  border: 3px solid #FF7F7F;
+  border-radius: 15px;
+  margin: 1em auto 1em auto;
+  padding: 1em 0em 1em .5em;
+  color: white;
+}
+
+
 
 /* About Page CSS */
 .aboutContainer {
