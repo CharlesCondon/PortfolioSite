@@ -218,7 +218,7 @@ input {
   width: 100%;
   border: 3px solid black;
   border-radius: 15px;
-  margin: 0 auto 2em auto;
+  margin: 1em auto 1em auto;
   padding: 1em 0em 1em .5em;
   color: white;
 }
