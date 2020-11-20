@@ -5,14 +5,15 @@
 console.log("hi");
 
 $(document).ready( function() {
-  $("form[name='contactForm']").validate({
+  $("#contactForm").validate({
     rules: {
       name: "required",
       email: {
         required: true,
         email: true
       }
-    },    submitHandler: function(form) {
+    },    
+    submitHandler: function(form) {
       form.submit();
     }
   });
