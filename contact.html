@@ -9,6 +9,8 @@
     <!-- import the webpage's stylesheet -->
     <link rel="stylesheet" href="/master.css" />
     <link rel="stylesheet" href="https://use.typekit.net/seb0zhz.css" />
+    <!-- Import Bootstrap for validation -->
+    <link href="https://bootswatch.com/yeti/bootstrap.min.css" rel="stylesheet">
     <!-- Media query for narrow browser width -->
     <link
       rel="stylesheet"
@@ -106,7 +108,7 @@
             action="https://formspree.io/f/xleolaod"
             method="POST"
           >
-            <div>
+            <div class="form-group">
               <input
                 class="req"
                 type="text"
@@ -115,7 +117,7 @@
                 required
               />
             </div>
-            <div>
+            <div class="form-group">
               <input
                 class="req"
                 type="email"

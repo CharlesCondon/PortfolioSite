@@ -4,6 +4,12 @@
 // prints "hi" in the browser's dev tools console
 console.log("hi");
 
+$.validator.setDefaults({
+  highlight: function(element) {
+    $(element)
+  }
+});
+
 $(document).ready( function() {
   $("#contactForm").validate({
     rules: {
