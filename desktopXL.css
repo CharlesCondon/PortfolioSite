@@ -73,7 +73,12 @@ h3 {
   width: 50%;
   padding: 0 0 0 0;
   border: 2px solid white;
-  margin: 0 -3em -9em -3em;
+  object-fit: cover;
+}
+
+#fireCrop {
+  width: 100px;
+  height: 100px;
 }
 
 #flair {
