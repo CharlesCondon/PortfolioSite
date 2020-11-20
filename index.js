@@ -1,3 +1,5 @@
 $(document).ready(function(){
-  $("h1").slideUp();
+  $("img[id=fire]").hover() ({
+     $(this.element).show();
+  });
 });
