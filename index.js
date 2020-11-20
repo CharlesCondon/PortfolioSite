@@ -3,6 +3,6 @@ $(document).ready(function() {
     $(this).removeClass("burn");
     $(this).css("opacity", "1");
   }, function(){
-    $(this).addClass("burn2");
+    $(this).addClass("burn");
   });
 });

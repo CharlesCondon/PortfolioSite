@@ -64,8 +64,6 @@ h3 {
   right: 10vw;
   bottom: 0;
   width: 50%;
-  object-fit: cover;
-  object-position: 20% 20%;
 }
 
 #fire {
@@ -75,6 +73,7 @@ h3 {
   width: 50%;
   padding: 0 0 0 0;
   border: 2px solid white;
+  margin: 0 -3em -9em -3em;
 }
 
 #flair {
@@ -120,28 +119,6 @@ h3 {
 }
 
 .burn {
-  animation-name: burn;
-  animation-iteration-count: infinite;
-  animation-duration: 9s;
-  animation-timing-gunction: ease-out;
-}
-
-@keyframes burn {
-  0% {
-    opacity: 0;
-  }
-  50% {
-    opacity: 1;
-  }
-  65% {
-    opacity: 1;
-  }
-  100% {
-    opacity: 0;
-  }
-}
-
-.burn2 {
   animation-name: burn;
   animation-iteration-count: infinite;
   animation-duration: 9s;
