@@ -1,37 +1,10 @@
-Welcome to Glitch
-=================
+Portfolio Website
+==================
 
-Click `Show` in the header to see your app live. Updates to your code will instantly deploy and update live.
+This site serves as the first compete web development project I have completed,
+as well as a showcase for my other accomplishments.
 
-**Glitch** is the friendly community where you'll build the app of your dreams. Glitch lets you instantly create, remix, edit, and host an app, bot or site, and you can invite collaborators or helpers to simultaneously edit code with you.
+The site contains a wide variety of examples of HTML, CSS, and JavaScript in
+order to showcase my progress thus far and create a unique user experience.
 
-Find out more [about Glitch](https://glitch.com/about).
-
-
-Your Project
-------------
-
-### ← README.md
-
-That's this file, where you can tell people what your cool website does and how you built it.
-
-### ← index.html
-
-Where you'll write the content of your website. 
-
-### ← style.css
-
-CSS files add styling rules to your content.
-
-### ← script.js
-
-If you're feeling fancy you can add interactivity to your site with JavaScript.
-
-### ← assets
-
-Drag in `assets`, like images or music, to add them to your project
-
-Made by [Glitch](https://glitch.com/)
--------------------
-
-\ ゜o゜)ノ
+(This site is a constant work in progress)
