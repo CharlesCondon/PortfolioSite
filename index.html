@@ -1,6 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-T0R1R4E1WH"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-T0R1R4E1WH");
+    </script>
+
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
@@ -10,6 +25,11 @@
     <link rel="stylesheet" href="/master.css" />
     <link rel="stylesheet" href="https://use.typekit.net/seb0zhz.css" />
 
+    <link
+      rel="shortcut icon"
+      type="image/x-icon"
+      href="https://cdn.glitch.com/404bb06c-4b66-4860-905d-4ad52d1e7e07%2F160a84ab-111f-4f77-b5c3-173451485f15_Logo_Practice.png?v=1606772508849"
+    />
     <!-- Media query for narrow browser width -->
     <link
       rel="stylesheet"
@@ -58,10 +78,18 @@
 
           <div class="navigation">
             <ul>
-              <li class="menuItem"><a href="art.html">Art</a></li>
-              <li class="menuItem"><a href="code.html">Programming</a></li>
-              <li class="menuItem"><a href="about.html">About</a></li>
-              <li id="menuItem2"><a href="contact.html">Contact</a></li>
+              <li class="menuItem">
+                <span><a href="art.html">Art</a></span>
+              </li>
+              <li class="menuItem">
+                <span><a href="code.html">Programming</a></span>
+              </li>
+              <li class="menuItem">
+                <span><a href="about.html">About</a></span>
+              </li>
+              <li id="menuItem2">
+                <span><a href="contact.html">Contact</a></span>
+              </li>
             </ul>
           </div>
         </div>
@@ -72,7 +100,7 @@
       <div>
         <h1 id="slide" class="name">
           Charles <br />
-          Condon
+          Condon;
         </h1>
 
         <img
@@ -109,5 +137,6 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <!-- import the webpage's javascript file -->
     <script src="/index.js" defer></script>
+    <script src="/master.js" defer></script>
   </body>
 </html>
