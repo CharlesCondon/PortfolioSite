@@ -53,6 +53,44 @@ h3 {
   height: auto;
 }
 
+span {
+  position: relative;
+  display: block;
+  cursor: pointer;
+}
+
+span:before, span:after {
+  content: '';
+  position: absolute;
+  width: 0%;
+  height: 1px;
+  top: 50%;
+  margin-top: -0.5px;
+  background: #f2aa4cff;
+}
+
+span:before {
+  left: -2.5px;
+}
+
+span:after {
+  right: 2.5px;
+  background: #f2aa4cff;
+  transition: width 0.8s cubic-bezier(0.22, 0.61, 0.36, 1);
+}
+
+span:hover:before {
+  background: #f2aa4cff;
+  width: 100%;
+  transition: width 0.5s cubic-bezier(0.22, 0.61, 0.36, 1);
+}
+
+span:hover:after {
+  background: transparent;
+  width: 100%;
+  transition: 0s;
+}
+
 /* Home Page CSS */
 .name {
   display: block;
@@ -82,11 +120,11 @@ h3 {
   display: block;
   background-color: #f2aa4cff;
   position: absolute;
-  width: 20%;
+  width: 25%;
   text-align: center;
   border-radius: 0 50px 50px 0;
   left: 0;
-  padding: 0 2vw 0 11vw;
+  padding: 0 2vw 0 9vw;
 }
 
 #slide {
@@ -165,14 +203,26 @@ h3 {
 
 .square {
   width: 34.5%;
-  border: 4px solid black;
+  border: 7px solid black;
+  border-radius: 50px;
   margin: 3vw 6.75vw 3vw 6.75vw;
 }
 
 .rectangle {
   width: 39%;
-  border: 4px solid black;
+  border: 7px solid black;
+  border-radius: 50px;
   margin: 3vw 4.5vw 3vw 4.5vw;
+}
+
+.square:hover,
+.rectangle:hover {
+  box-shadow: 1px 1px 2px black, 0 0 25px white, 0 0 5px white;
+}
+
+section {
+  transition: transform 1s;
+  will-change: transform;
 }
 
 /* About Page CSS */
@@ -225,15 +275,30 @@ h3 {
   font-size: 1vw;
 }
 
+#subContainer {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+}
+
+#resume {
+  margin: 2vw auto 0 auto;
+  padding: .5vw 1vw;
+  border: 5px double #f2aa4cff;
+  border-radius: 50px;
+  background-color: rgb(16, 24, 32, 0.5);
+  font-size: 1vw;
+}
+
 .submission {
   text-align: center;
   float: left;
   border: 5px double #f2aa4cff;
   border-radius: 50px;
   background: rgb(255, 255, 255, 0.1);
-  padding: 2em 3em 2em 2em;
-  margin: -1em 5vw 0 9vw;
-  width: 40%;
+  padding: 2em 2em 2em 2em;
+  margin: -1em auto 0 auto;
+  width: 60%;
 }
 
 #contactForm {
@@ -273,8 +338,18 @@ input[type=submit] {
   width: 20%;
 }
 
-input.invalid, textarea.invalid{
-	border: 2px solid red;
+label {
+  color: #FF7F7F;
+}
+
+.inputError {
+  background-color: rgb(16, 24, 32, 0.5);
+  width: 100%;
+  border: 3px solid #FF7F7F;
+  border-radius: 15px;
+  margin: 0em auto 0em auto;
+  padding: 1em 0em 1em .5em;
+  color: white;
 }
 
 /* Code Page CSS */
