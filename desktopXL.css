@@ -48,6 +48,45 @@ h3 {
   height: auto;
 }
 
+span {
+  position: relative;
+  display: block;
+  cursor: pointer;
+}
+
+span:before,
+span:after {
+  content: "";
+  position: absolute;
+  width: 0%;
+  height: 1px;
+  top: 50%;
+  margin-top: -0.5px;
+  background: #f2aa4cff;
+}
+
+span:before {
+  left: -2.5px;
+}
+
+span:after {
+  right: 2.5px;
+  background: #f2aa4cff;
+  transition: width 0.8s cubic-bezier(0.22, 0.61, 0.36, 1);
+}
+
+span:hover:before {
+  background: #f2aa4cff;
+  width: 100%;
+  transition: width 0.5s cubic-bezier(0.22, 0.61, 0.36, 1);
+}
+
+span:hover:after {
+  background: transparent;
+  width: 100%;
+  transition: 0s;
+}
+
 /* Home Page CSS */
 .name {
   display: block;
@@ -87,7 +126,7 @@ h3 {
   border-radius: 0 50px 50px 0;
   left: 0;
   padding: 0 2vw 0 11vw;
-  margin: 4em 0 0 0;
+  margin: -3em 0 0 0;
 }
 
 #slide {
@@ -124,7 +163,7 @@ h3 {
   animation-name: burn;
   animation-iteration-count: infinite;
   animation-duration: 9s;
-  animation-timing-gunction: ease-out;  
+  animation-timing-gunction: ease-out;
 }
 
 @keyframes burn {
@@ -142,7 +181,6 @@ h3 {
   }
 }
 
-
 /* Art Page CSS */
 .artContainer {
   margin: 14em 0 0 0;
@@ -155,6 +193,7 @@ h3 {
   height: 600px; /* height of container */
   object-fit: cover;
   position: center;
+  padding: 0;
 }
 
 #gif2 {
@@ -166,15 +205,27 @@ h3 {
 }
 
 .square {
-  width: 35%;
-  border: 2px solid black;
+  width: 34%;
+  border: 7px solid black;
+  border-radius: 50px;
   margin: 3vw 6.75vw 3vw 6.75vw;
 }
 
 .rectangle {
-  width: 40%;
-  border: 2px solid black;
+  width: 39%;
+  border: 7px solid black;
+  border-radius: 50px;
   margin: 3vw 4.5vw 3vw 4.5vw;
+}
+
+.square:hover,
+.rectangle:hover {
+  box-shadow: 1px 1px 2px black, 0 0 25px white, 0 0 5px white;
+}
+
+section {
+  transition: transform 1s;
+  will-change: transform;
 }
 
 /* Contact Page CSS */
@@ -183,7 +234,7 @@ h3 {
   background: rgb(255, 255, 255, 0.1);
   border-radius: 50px 15px;
   margin: 0vw 3.5vw 3.5vw 10em;
-  padding: 1vw 4vw 4vw 4vw;
+  padding: 1vw 4vw 2vw 4vw;
   float: left;
 }
 
@@ -195,6 +246,22 @@ h3 {
   text-align: center;
   margin: 3vw 0 1vw 0;
   font-size: 1.5vw;
+  padding: 0;
+}
+
+#subContainer {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+}
+
+#resume {
+  margin: 1vw auto 0 auto;
+  padding: .5vw 1vw;
+  border: 5px double #f2aa4cff;
+  border-radius: 50px;
+  background-color: rgb(16, 24, 32, 0.5);
+  font-size: 1vw;
 }
 
 .submission {
@@ -204,8 +271,8 @@ h3 {
   border-radius: 50px;
   background: rgb(255, 255, 255, 0.1);
   padding: 4vw 4vw 4vw 4vw;
-  margin: 3vw 5vw 7vw 9vw;
-  width: 30%;
+  margin: 0vw auto 1.5vw auto;
+  width: 50%;
 }
 
 #contactForm {
@@ -219,7 +286,7 @@ input {
   border: 3px solid black;
   border-radius: 15px;
   margin: 1em auto 1em auto;
-  padding: 1em 0em 1em .5em;
+  padding: 1em 0em 1em 0.5em;
   color: white;
 }
 
@@ -230,12 +297,12 @@ textarea {
   width: 100%;
   height: 9em;
   margin: 0 auto 2em auto;
-  padding: 1em 0em 1em .5em;
+  padding: 1em 0em 1em 0.5em;
   color: white;
   resize: none;
 }
 
-input[type=submit] {
+input[type="submit"] {
   font-family: hobo-std, sans-serif;
   background-color: rgb(16, 24, 32, 0.5);
   color: #f2aa4cff;
@@ -243,10 +310,6 @@ input[type=submit] {
   padding: 0 0 0 0;
   margin: 0 0 0 0;
   width: 20%;
-}
-
-input.invalid, textarea.invalid{
-	border: 2px solid red;
 }
 
 label {
@@ -259,11 +322,9 @@ label {
   border: 3px solid #FF7F7F;
   border-radius: 15px;
   margin: 1em auto 1em auto;
-  padding: 1em 0em 1em .5em;
+  padding: 1em 0em 1em 0.5em;
   color: white;
 }
-
-
 
 /* About Page CSS */
 .aboutContainer {
@@ -320,8 +381,8 @@ label {
   padding: 1em 4em 2em 4em;
 }
 
-.expWords p{
-  font-size: 1.25vw; 
+.expWords p {
+  font-size: 1.25vw;
 }
 
 .codeLinks {
