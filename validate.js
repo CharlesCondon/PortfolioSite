@@ -1,15 +1,14 @@
-/* If you're feeling fancy you can add interactivity 
-    to your site with Javascript */
-
 // prints "hi" in the browser's dev tools console
-console.log("hi");
+console.log("Welcome to my page!");
 
+// functions to validate contact form
+// due to transition JavaScript this program
+// only works if contact page is refreshed
 $(document).ready(function() {
   $("#contactForm").validate({
     rules: {
       name: {
         required: true,
-        lettersonly: true
       },
       email: {
         required: true,
