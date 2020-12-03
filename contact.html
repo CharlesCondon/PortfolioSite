@@ -9,7 +9,11 @@
     <!-- import the webpage's stylesheet -->
     <link rel="stylesheet" href="/master.css" />
     <link rel="stylesheet" href="https://use.typekit.net/seb0zhz.css" />
-
+    <link
+      rel="shortcut icon"
+      type="image/x-icon"
+      href="https://cdn.glitch.com/404bb06c-4b66-4860-905d-4ad52d1e7e07%2F160a84ab-111f-4f77-b5c3-173451485f15_Logo_Practice.png?v=1606772508849"
+    />
     <!-- Media query for narrow browser width -->
     <link
       rel="stylesheet"
@@ -58,10 +62,18 @@
 
           <div class="navigation">
             <ul>
-              <li class="menuItem"><a href="art.html">Art</a></li>
-              <li class="menuItem"><a href="code.html">Programming</a></li>
-              <li class="menuItem"><a href="about.html">About</a></li>
-              <li id="menuItem2"><a href="contact.html">Contact</a></li>
+              <li class="menuItem">
+                <span><a href="art.html">Art</a></span>
+              </li>
+              <li class="menuItem">
+                <span><a href="code.html">Programming</a></span>
+              </li>
+              <li class="menuItem">
+                <span><a href="about.html">About</a></span>
+              </li>
+              <li id="menuItem2">
+                <span><a href="contact.html">Contact</a></span>
+              </li>
             </ul>
           </div>
         </div>
@@ -76,69 +88,87 @@
           </h3>
           <div id="mobileLinks">
             <p class="mediaLinks">
-              <a href="https://www.instagram.com/char.leys/" target="_blank"
-                >Instagram</a
+              <span
+                ><a href="https://www.instagram.com/char.leys/" target="_blank"
+                  >Instagram</a
+                ></span
               >
             </p>
             <br />
             <p class="mediaLinks">
-              <a href="https://giphy.com/charlescon" target="_blank">Giphy</a>
-            </p>
-            <br />
-            <p class="mediaLinks">
-              <a
-                href="https://www.linkedin.com/in/charles-condon-991594149/"
-                target="_blank"
-                >LinkedIn</a
+              <span>
+                <a href="https://giphy.com/charlescon" target="_blank"
+                  >Giphy</a
+                ></span
               >
             </p>
             <br />
             <p class="mediaLinks">
-              <a href="https://github.com/charlescon98" target="_blank"
-                >GitHub</a
+              <span>
+                <a
+                  href="https://www.linkedin.com/in/charles-condon-991594149/"
+                  target="_blank"
+                  >LinkedIn</a
+                ></span
+              >
+            </p>
+            <br />
+            <p class="mediaLinks">
+              <span>
+                <a href="https://github.com/charlescon98" target="_blank"
+                  >GitHub</a
+                ></span
               >
             </p>
           </div>
         </div>
+        <div id="subContainer">
+          <div class="submission">
+            <form
+              id="contactForm"
+              action="https://formspree.io/f/xleolaod"
+              method="POST"
+            >
+              <div>
+                <input
+                  class="req"
+                  type="text"
+                  name="name"
+                  placeholder="NAME*"
+                  required
+                />
+              </div>
+              <div>
+                <input
+                  class="req"
+                  type="email"
+                  name="_replyto"
+                  placeholder="EMAIL*"
+                  required
+                />
+              </div>
+              <div>
+                <input type="text" name="subject" placeholder="SUBJECT" />
+              </div>
+              <div>
+                <textarea name="message" placeholder="MESSAGE"></textarea>
+              </div>
+              <div>
+                <input type="submit" value="SEND" />
+              </div>
+            </form>
+          </div>
 
-        <div class="submission">
-          <form
-            id="contactForm"
-            action="https://formspree.io/f/xleolaod"
-            method="POST"
-          >
-            <div>
-              <input
-                class="req"
-                type="text"
-                name="name"
-                placeholder="NAME*"
-                required
-              />
-            </div>
-            <div>
-              <input
-                class="req"
-                type="email"
-                name="_replyto"
-                placeholder="EMAIL*"
-                required
-              />
-            </div>
-            <div>
-              <input type="text" name="subject" placeholder="SUBJECT" />
-            </div>
-            <div>
-              <textarea name="message" placeholder="MESSAGE"></textarea>
-            </div>
-            <div>
-              <input type="submit" value="SEND" />
-            </div>
-          </form>
+          <div id="resume">
+            <a
+              href="https://cdn.glitch.com/404bb06c-4b66-4860-905d-4ad52d1e7e07%2FCharles%20C.%20Resume%20.pdf?v=1606866169615"
+              target="_blank"
+              >RESUME</a
+            >
+          </div>
         </div>
       </div>
     </main>
-
     <!-- Add jQuery -->
     <script
       src="https://code.jquery.com/jquery-3.1.1.slim.min.js"
@@ -147,12 +177,6 @@
     ></script>
     <!-- Include jQuery Validation Plugin-->
     <script src="https://cdn.jsdelivr.net/jquery.validation/1.15.1/jquery.validate.min.js"></script>
-    <!-- Additional Methods for JQuery Validation -->
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.2/additional-methods.min.js"
-      integrity="sha512-6Uv+497AWTmj/6V14BsQioPrm3kgwmK9HYIyWP+vClykX52b0zrDGP7lajZoIY1nNlX4oQuh7zsGjmF7D0VZYA=="
-      crossorigin="anonymous"
-    ></script>
     <!-- import the webpage's javascript file -->
     <script src="/validate.js" defer></script>
   </body>
