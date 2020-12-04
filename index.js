@@ -1,3 +1,6 @@
+// prints "hi" in the browser's dev tools console
+console.log("Welcome to my page!");
+
 // functions to make interactive flame
 // (does not work if homepage is left and then returned 
 // to unless user refreshes page)
