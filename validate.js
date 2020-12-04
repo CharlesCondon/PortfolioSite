@@ -1,6 +1,3 @@
-// prints "hi" in the browser's dev tools console
-console.log("Welcome to my page!");
-
 // functions to validate contact form
 // due to transition JavaScript this program
 // only works if contact page is refreshed
