@@ -234,45 +234,25 @@ section {
 
 #self {
   display: block;
-  margin: 0 0 0 14em;
-  width: 75%;
+  margin: 0em 7em 0em 9em;
+  width: 140%;
   height: auto;
 }
 
 #self2 {
   border: 5px double #f2aa4cff;
   border-radius: 50px 15px;
-  width: 75%;
+  width: 140%;
   height: auto;
 }
 
 #aboutCol {
-  margin: 0vw 11vw ;
+  flex-direction: column;
+  margin: 0 11vw;
 }
 
 #nameSpace {
   margin: 1vw 0;
-}
-
-.aHead {
-  text-align: center;
-  width: 100%;
-  font-size: 1.49vw;
-  margin: 0 0 3em 0;
-}
-
-.aLeft {
-  width: 42%;
-  float: left;
-  font-size: 1.4vw;
-  margin: 0 0 5em 0;
-}
-
-.aRight {
-  width: 42%;
-  float: right;
-  font-size: 1.4vw;
-  margin: 0 0 5em 0;
 }
 
 /* Contact Page CSS */
